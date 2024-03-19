@@ -102,6 +102,7 @@ namespace Blog
 
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddScoped<IUserService, UserService>();
+            services.AddScoped<IPostService, PostService>();
 
 
             var app = builder.Build();
